@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    font-family: 'Roboto Serif', serif;
+    display: flex;
+    background-color: #252525;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 6vw;
+}
+
+header nav {
+    display: flex;
+    width: 8vw;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+header div h2 {
+    font-size: 10px;
+}
+
+.logo {
+    display: flex;
+    width: 1.5vw;
+}
+
+a img {
+    display: flex;
+    align-items: center;
+    width: 1.5vw;
+}
+
+header div h2 {
+    font-family: 'Roboto Serif', serif;
+    display: flex;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.primeira_sec {
+    font-family: 'Roboto Serif', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(IMG/kiba.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    height: 70vw;
+}
+
+.primeira_sec div {
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.logo2 {
+    display: flex;
+    width: 10vw;
+}
+
+.segunda_sec {
+    display: flex;
+    align-items: center;
+    background-image: url(IMG/tosa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vw;
+}
+
+.segunda_sec div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+    margin-left: 10vw;
+}
+
+.segunda_sec h2 {
+    font-family: 'Roboto Serif', serif;
+    color: #3A342F;
+    font-size: 49px;
+}
+
+.segunda_sec p {
+    font-family: 'Roboto', sans-serif;
+    color: #3A342F;
+    font-size: 29px;
+}
+
+.segunda_sec button {
+    display: flex;
+    color: #FFFFFF;
+    background-color: #3A342F;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+.terceira_sec {
+    display: flex;
+    align-items: center;
+    background-image: url(IMG/mordomia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vw;
+}
+
+.terceira_sec div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+    margin-left: 60vw;
+}
+
+.terceira_sec h2 {
+    font-family: 'Roboto Serif', serif;
+    color: white;
+    font-size: 49px;
+}
+
+.terceira_sec p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 29px;
+}
+
+.terceira_sec button {
+
+    display: flex;
+    color: #3A342F;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+.quarta_sec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.apoio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    color: #FD6A9A;
+    font-size: 30px;
+    width: 100%;
+    height: 5vw;
+}
+
+.apoio img {
+    justify-content: space-between;
+    width: 10vw;
+}
+
+.topico {
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EB4A7B;
+    color: white;
+    width: 100%;
+    height: 14vw;
+    padding: 14px;
+}
+
+@media (max-width: 500px)
